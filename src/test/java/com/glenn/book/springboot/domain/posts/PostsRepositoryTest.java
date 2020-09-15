@@ -24,7 +24,8 @@ public class PostsRepositoryTest extends TestCase {
 
     @After
     public void cleanup() {
-        postsRepository.deleteAll();;
+        postsRepository.deleteAll();
+        ;
     }
 
     @Test

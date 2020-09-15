@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.glenn.book.springboot.web.PostsApiControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-08T18:20:58" hostname="DESKTOP-B9EBNNO" time="0.165">
-  <properties/>
-  <testcase name="saveTest" classname="com.glenn.book.springboot.web.PostsApiControllerTest" time="0.138"/>
-  <testcase name="updateTest" classname="com.glenn.book.springboot.web.PostsApiControllerTest" time="0.026"/>
-  <system-out><![CDATA[2020-05-09 03:20:58.033  INFO 32392 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.glenn.book.springboot.web.PostsApiControllerTest], using SpringBootContextLoader
+<testsuite name="com.glenn.book.springboot.web.PostsApiControllerTest" tests="2" skipped="0" failures="0" errors="0"
+           timestamp="2020-05-08T18:20:58" hostname="DESKTOP-B9EBNNO" time="0.165">
+    <properties/>
+    <testcase name="saveTest" classname="com.glenn.book.springboot.web.PostsApiControllerTest" time="0.138"/>
+    <testcase name="updateTest" classname="com.glenn.book.springboot.web.PostsApiControllerTest" time="0.026"/>
+    <system-out><![CDATA[2020-05-09 03:20:58.033  INFO 32392 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.glenn.book.springboot.web.PostsApiControllerTest], using SpringBootContextLoader
 2020-05-09 03:20:58.033  INFO 32392 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.glenn.book.springboot.web.PostsApiControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
 2020-05-09 03:20:58.034  INFO 32392 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.glenn.book.springboot.web.PostsApiControllerTest]: PostsApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
 2020-05-09 03:20:58.035  INFO 32392 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.glenn.book.springboot.Application for test class com.glenn.book.springboot.web.PostsApiControllerTest
@@ -26,5 +27,5 @@ Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, po
 Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
 Hibernate: delete from posts where id=?
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+    <system-err><![CDATA[]]></system-err>
 </testsuite>

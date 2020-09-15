@@ -56,6 +56,7 @@ public class PostsApiControllerTest extends TestCase {
                 .apply(springSecurity())
                 .build();
     }
+
     @After
     public void tearDown() throws Exception {
         postsRepository.deleteAll();
@@ -71,9 +72,9 @@ public class PostsApiControllerTest extends TestCase {
         String url = "http://localhost:" + port + "/api/v1/posts";
 
         mvc.perform(post(url)
-            .contentType(MediaType.APPLICATION_JSON_UTF8)
-            .content(new ObjectMapper().writeValueAsString(requestDto)))
-            .andExpect(status().isOk());
+                .contentType(MediaType.APPLICATION_JSON_UTF8)
+                .content(new ObjectMapper().writeValueAsString(requestDto)))
+                .andExpect(status().isOk());
 
         List<Posts> list = postsRepository.findAll();
         Posts posts = list.get(0);

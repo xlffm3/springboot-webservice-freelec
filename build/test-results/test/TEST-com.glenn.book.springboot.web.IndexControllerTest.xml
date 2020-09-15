@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.glenn.book.springboot.web.IndexControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-08T18:20:56" hostname="DESKTOP-B9EBNNO" time="0.343">
-  <properties/>
-  <testcase name="loadTest" classname="com.glenn.book.springboot.web.IndexControllerTest" time="0.343"/>
-  <system-out><![CDATA[03:20:49.979 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.glenn.book.springboot.web.IndexControllerTest]
+<testsuite name="com.glenn.book.springboot.web.IndexControllerTest" tests="1" skipped="0" failures="0" errors="0"
+           timestamp="2020-05-08T18:20:56" hostname="DESKTOP-B9EBNNO" time="0.343">
+    <properties/>
+    <testcase name="loadTest" classname="com.glenn.book.springboot.web.IndexControllerTest" time="0.343"/>
+    <system-out><![CDATA[03:20:49.979 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.glenn.book.springboot.web.IndexControllerTest]
 03:20:49.987 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
 03:20:49.995 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
 03:20:50.010 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.glenn.book.springboot.web.IndexControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
@@ -73,5 +74,5 @@ Hibernate: create table user (id bigint not null auto_increment, created_date da
 2020-05-09 03:20:56.258  INFO 32392 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
 Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_ order by posts0_.id DESC
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+    <system-err><![CDATA[]]></system-err>
 </testsuite>
