@@ -1,6 +1,5 @@
 package com.glenn.book.springboot.domain.posts;
 
-import javafx.geometry.Pos;
 import junit.framework.TestCase;
 import org.junit.After;
 import org.junit.Test;
