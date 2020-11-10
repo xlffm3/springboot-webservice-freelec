@@ -17,7 +17,7 @@
 * JUnit Test
 * Spring Data JPA
 * Mustache & Bootstrap (Front-End)
-* Spring Security & OAuth 2.0 (Google, Naver)
+* Spring Security & OAuth 2.0 (Google, Naver Login)
 * AWS (EC2, RDS)
 * CI, CD (Travis, Code Deploy, S3)
 * 무중단배포 (Nginx)
